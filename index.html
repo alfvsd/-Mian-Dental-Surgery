@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mian Dental Surgery - A Name of Excellence in Dentistry. Modern dental clinic in Lahore offering zirconia crowns, implants, braces, whitening, and cosmetic dentistry." />
+  <title>Mian Dental Surgery — A Name of Excellence in Dentistry</title>
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Page Loader ===== -->
+  <div class="loader" id="loader">
+    <div class="loader-tooth">
+      <i class="fas fa-tooth"></i>
+    </div>
+    <p>Mian Dental Surgery</p>
+  </div>
+
+  <!-- ===== Progress Bar ===== -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <img src="images/logo.png" alt="Mian Dental Surgery Logo" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-title">Mian Dental Surgery</span>
+          <span class="brand-sub">A Name of Excellence in Dentistry</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a href="#appointment" class="btn btn-primary btn-sm">Book Appointment</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <span class="pill reveal" data-reveal="up">
+          <i class="fas fa-star"></i> Trusted by 5,000+ smiles in Lahore
+        </span>
+        <h1 class="hero-title reveal" data-reveal="up" data-delay="100">
+          A Stronger Smile.<br />
+          <span class="text-gradient">A Brighter You.</span>
+        </h1>
+        <p class="hero-sub reveal" data-reveal="up" data-delay="200">
+          Welcome to <strong>Mian Dental Surgery</strong> — where experienced
+          dentists, modern technology, and gentle care come together to give
+          you the confident smile you deserve.
+        </p>
+        <div class="hero-cta reveal" data-reveal="up" data-delay="300">
+          <a href="#appointment" class="btn btn-primary">
+            <i class="fas fa-calendar-check"></i> Book Appointment
+          </a>
+          <a href="https://wa.me/923214422590" target="_blank" rel="noopener" class="btn btn-ghost">
+            <i class="fab fa-whatsapp"></i> WhatsApp Us
+          </a>
+        </div>
+
+        <div class="hero-stats reveal" data-reveal="up" data-delay="400">
+          <div class="hero-stat">
+            <span class="count" data-target="15">0</span>
+            <span class="hero-stat-label">Years Experience</span>
+          </div>
+          <div class="hero-stat">
+            <span class="count" data-target="5000">0</span><span>+</span>
+            <span class="hero-stat-label">Happy Patients</span>
+          </div>
+          <div class="hero-stat">
+            <span class="count" data-target="12">0</span>
+            <span class="hero-stat-label">Expert Dentists</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" data-reveal="zoom" data-delay="300">
+        <div class="hero-img-wrap">
+          <img src="images/clinic-hero.png" alt="Modern dental clinic interior" />
+          <div class="floating-card floating-card-1">
+            <div class="fc-icon fc-icon-green"><i class="fas fa-tooth"></i></div>
+            <div>
+              <strong>Zirconia Crowns</strong>
+              <span>Strong &amp; Natural</span>
+            </div>
+          </div>
+          <div class="floating-card floating-card-2">
+            <div class="fc-icon fc-icon-blue"><i class="fas fa-heart"></i></div>
+            <div>
+              <strong>Painless Care</strong>
+              <span>Gentle Approach</span>
+            </div>
+          </div>
+          <div class="floating-card floating-card-3">
+            <div class="fc-icon fc-icon-orange"><i class="fas fa-award"></i></div>
+            <div>
+              <strong>4.9 Rating</strong>
+              <span>500+ Reviews</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <span class="mouse"><span class="wheel"></span></span>
+    </a>
+  </section>
+
+  <!-- ===== Marquee ===== -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span><i class="fas fa-tooth"></i> Zirconia Crowns</span>
+      <span><i class="fas fa-teeth"></i> Dental Implants</span>
+      <span><i class="fas fa-wand-magic-sparkles"></i> Teeth Whitening</span>
+      <span><i class="fas fa-children"></i> Pediatric Dentistry</span>
+      <span><i class="fas fa-tooth"></i> Orthodontics / Braces</span>
+      <span><i class="fas fa-shield-heart"></i> Root Canal</span>
+      <span><i class="fas fa-tooth"></i> Zirconia Crowns</span>
+      <span><i class="fas fa-teeth"></i> Dental Implants</span>
+      <span><i class="fas fa-wand-magic-sparkles"></i> Teeth Whitening</span>
+      <span><i class="fas fa-children"></i> Pediatric Dentistry</span>
+      <span><i class="fas fa-tooth"></i> Orthodontics / Braces</span>
+      <span><i class="fas fa-shield-heart"></i> Root Canal</span>
+    </div>
+  </div>
+
+  <!-- ===== About ===== -->
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div class="about-visual reveal" data-reveal="left">
+        <div class="about-img-main">
+          <img src="images/clinic-reception.png" alt="Mian Dental Surgery Reception" />
+        </div>
+        <div class="about-img-sub">
+          <img src="images/dental-procedure.png" alt="Dental procedure at Mian Dental Surgery" />
+        </div>
+        <div class="about-exp">
+          <span class="about-exp-num">15+</span>
+          <span class="about-exp-label">Years of Trusted Dental Care</span>
+        </div>
+      </div>
+
+      <div class="about-content reveal" data-reveal="right">
+        <span class="section-tag">About Us</span>
+        <h2 class="section-title">We Take Care of Your Brighter Future</h2>
+        <p class="section-lead">
+          At Mian Dental Surgery, we have a very experienced and hard-working
+          team of dental professionals. Our clinic, located on Main Shadbagh
+          Road in Lahore, combines modern technology with a patient-first
+          philosophy to deliver exceptional dental care for the whole family.
+        </p>
+        <p class="section-text">
+          From routine cleanings to advanced cosmetic procedures like zirconia
+          crowns and dental implants, every treatment is performed with
+          precision, comfort, and long-lasting results in mind. Just visit us
+          once to be satisfied — that's our promise.
+        </p>
+
+        <ul class="about-features">
+          <li><i class="fas fa-check-circle"></i> Sterilized, state-of-the-art equipment</li>
+          <li><i class="fas fa-check-circle"></i> Friendly, English &amp; Urdu speaking staff</li>
+          <li><i class="fas fa-check-circle"></i> Affordable, transparent pricing</li>
+          <li><i class="fas fa-check-circle"></i> Same-day emergency appointments</li>
+        </ul>
+
+        <a href="#services" class="btn btn-primary">
+          Explore Our Services <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Services ===== -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-head reveal" data-reveal="up">
+        <span class="section-tag">Our Services</span>
+        <h2 class="section-title">Comprehensive Dental Care, All Under One Roof</h2>
+        <p class="section-lead">
+          Whether you need a routine checkup or a complete smile makeover,
+          our team offers a full range of treatments designed around your
+          comfort and confidence.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card reveal" data-reveal="up" data-delay="0">
+          <div class="service-img"><img src="images/service-crowns.png" alt="Zirconia Crowns" /></div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-tooth"></i></div>
+            <h3>Zirconia Crowns</h3>
+            <p>Strong, natural-looking crowns that restore function and a confident smile — built to last for years.</p>
+            <a href="#appointment" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="service-card reveal" data-reveal="up" data-delay="100">
+          <div class="service-img"><img src="images/service-implant.png" alt="Dental Implants" /></div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-teeth"></i></div>
+            <h3>Dental Implants</h3>
+            <p>Permanent replacements for missing teeth that look, feel, and function just like natural ones.</p>
+            <a href="#appointment" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="service-card reveal" data-reveal="up" data-delay="200">
+          <div class="service-img"><img src="images/service-braces.png" alt="Orthodontics / Braces" /></div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-grip-lines"></i></div>
+            <h3>Braces &amp; Aligners</h3>
+            <p>Straighten crooked teeth and correct bite issues with traditional braces or clear aligners.</p>
+            <a href="#appointment" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="service-card reveal" data-reveal="up" data-delay="0">
+          <div class="service-img"><img src="images/service-whitening.png" alt="Teeth Whitening" /></div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
+            <h3>Teeth Whitening</h3>
+            <p>Safe, professional bleaching that brightens your smile by several shades in a single visit.</p>
+            <a href="#appointment" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="service-card reveal" data-reveal="up" data-delay="100">
+          <div class="service-img"><img src="images/service-cleaning.png" alt="Scaling &amp; Cleaning" /></div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-broom"></i></div>
+            <h3>Scaling &amp; Root Planing</h3>
+            <p>Deep cleaning that removes plaque and tartar, preventing gum disease and keeping breath fresh.</p>
+            <a href="#appointment" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="service-card reveal" data-reveal="up" data-delay="200">
+          <div class="service-img"><img src="images/service-kids.png" alt="Pediatric Dentistry" /></div>
+          <div class="service-body">
+            <div class="service-icon"><i class="fas fa-children"></i></div>
+            <h3>Kids Dentistry</h3>
+            <p>Gentle, friendly care for little patients — building healthy dental habits that last a lifetime.</p>
+            <a href="#appointment" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Why Choose Us ===== -->
+  <section class="section why" id="why">
+    <div class="container">
+      <div class="section-head reveal" data-reveal="up">
+        <span class="section-tag">Why Choose Us</span>
+        <h2 class="section-title">The Mian Dental Surgery Difference</h2>
+        <p class="section-lead">
+          Three things make us Lahore's trusted choice for dental care — strength,
+          natural results, and confidence that lasts.
+        </p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card reveal" data-reveal="up" data-delay="0">
+          <div class="why-icon"><i class="fas fa-gem"></i></div>
+          <h3>Strong &amp; Durable</h3>
+          <p>
+            We use premium-grade materials like zirconia and titanium that are
+            engineered to handle daily chewing forces for decades, not just years.
+          </p>
+        </div>
+        <div class="why-card reveal" data-reveal="up" data-delay="100">
+          <div class="why-icon"><i class="fas fa-face-smile"></i></div>
+          <h3>Natural Appearance</h3>
+          <p>
+            Every crown, implant, and veneer is color-matched and shaped to blend
+            seamlessly with your existing teeth — no one will know, but everyone
+            will notice.
+          </p>
+        </div>
+        <div class="why-card reveal" data-reveal="up" data-delay="200">
+          <div class="why-icon"><i class="fas fa-shield-heart"></i></div>
+          <h3>Long-Lasting Confidence</h3>
+          <p>
+            Our treatments don't just fix teeth — they restore confidence. Walk
+            out smiling brighter, eating freely, and living fully.
+          </p>
+        </div>
+      </div>
+
+      <!-- ===== Before / After ===== -->
+      <div class="ba-section reveal" data-reveal="up">
+        <div class="ba-content">
+          <span class="section-tag">Real Results</span>
+          <h3 class="section-title">See the Transformation</h3>
+          <p class="section-lead">
+            One of our recent zirconia crown cases. Discolored, worn, uneven teeth
+            restored to a strong, bright, natural-looking smile — all in a few visits.
+          </p>
+          <ul class="ba-points">
+            <li><i class="fas fa-check"></i> Stain-resistant ceramic</li>
+            <li><i class="fas fa-check"></i> Metal-free &amp; bio-compatible</li>
+            <li><i class="fas fa-check"></i> Custom shade matching</li>
+            <li><i class="fas fa-check"></i> 10+ year lifespan</li>
+          </ul>
+        </div>
+        <div class="ba-visual">
+          <img src="images/before-after.png" alt="Before and after zirconia crowns" />
+          <span class="ba-tag ba-tag-before">Before</span>
+          <span class="ba-tag ba-tag-after">After</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Doctors ===== -->
+  <section class="section doctors" id="doctors">
+    <div class="container">
+      <div class="section-head reveal" data-reveal="up">
+        <span class="section-tag">Meet Our Team</span>
+        <h2 class="section-title">Experienced Dentists Who Truly Care</h2>
+        <p class="section-lead">
+          Our team brings together years of specialized experience across cosmetic,
+          restorative, and family dentistry — all under one roof.
+        </p>
+      </div>
+
+      <div class="doctors-grid">
+        <article class="doctor-card reveal" data-reveal="up" data-delay="0">
+          <div class="doctor-img">
+            <img src="images/doctor-1.png" alt="Dr. Ahmed Mian" />
+            <div class="doctor-socials">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/923214422590" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+          <div class="doctor-body">
+            <h3>Dr. Ahmed Mian</h3>
+            <span class="doctor-role">Chief Dentist &amp; Implantologist</span>
+            <p>BDS, MDS — 15+ years placing implants and restoring smiles across Lahore.</p>
+            <div class="doctor-tags">
+              <span>Implants</span>
+              <span>Crowns</span>
+              <span>Surgery</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="doctor-card reveal" data-reveal="up" data-delay="100">
+          <div class="doctor-img">
+            <img src="images/doctor-2.png" alt="Dr. Ayesha Khan" />
+            <div class="doctor-socials">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/923214422590" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+          <div class="doctor-body">
+            <h3>Dr. Ayesha Khan</h3>
+            <span class="doctor-role">Cosmetic &amp; Restorative Dentist</span>
+            <p>BDS — Specialist in veneers, whitening, and smile makeovers with a gentle touch.</p>
+            <div class="doctor-tags">
+              <span>Cosmetic</span>
+              <span>Veneers</span>
+              <span>Whitening</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="doctor-card reveal" data-reveal="up" data-delay="200">
+          <div class="doctor-img">
+            <img src="images/doctor-3.png" alt="Dr. Imran Saleem" />
+            <div class="doctor-socials">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/923214422590" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+          <div class="doctor-body">
+            <h3>Dr. Imran Saleem</h3>
+            <span class="doctor-role">Orthodontist &amp; Kids Specialist</span>
+            <p>BDS, MDS — Braces, aligners, and pediatric care for confident young smiles.</p>
+            <div class="doctor-tags">
+              <span>Braces</span>
+              <span>Aligners</span>
+              <span>Kids</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Stats Strip ===== -->
+  <section class="stats-strip">
+    <div class="container stats-strip-inner">
+      <div class="stat-item reveal" data-reveal="up">
+        <i class="fas fa-tooth"></i>
+        <span class="count" data-target="5000">0</span><span>+</span>
+        <p>Smiles Restored</p>
+      </div>
+      <div class="stat-item reveal" data-reveal="up" data-delay="100">
+        <i class="fas fa-user-md"></i>
+        <span class="count" data-target="12">0</span>
+        <p>Expert Dentists</p>
+      </div>
+      <div class="stat-item reveal" data-reveal="up" data-delay="200">
+        <i class="fas fa-award"></i>
+        <span class="count" data-target="15">0</span>
+        <p>Years of Care</p>
+      </div>
+      <div class="stat-item reveal" data-reveal="up" data-delay="300">
+        <i class="fas fa-star"></i>
+        <span class="count" data-target="4" data-decimal="9">0</span>
+        <p>Average Rating</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testimonials ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-head reveal" data-reveal="up">
+        <span class="section-tag">Patient Reviews</span>
+        <h2 class="section-title">What Our Patients Say</h2>
+        <p class="section-lead">
+          Real stories from real patients who trusted us with their smiles.
+        </p>
+      </div>
+
+      <div class="testi-slider" id="testiSlider">
+        <div class="testi-track" id="testiTrack">
+          <article class="testi-card">
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"I got my zirconia crowns done at Mian Dental Surgery and the results are amazing. The teeth look completely natural and feel strong. Highly recommended!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar">SK</div>
+              <div>
+                <strong>Sana Khalid</strong>
+                <span>Zirconia Crowns Patient</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testi-card">
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"The staff is so polite and the clinic is super clean. Dr. Ahmed explained everything before starting my implant surgery. Painless and professional."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">UR</div>
+              <div>
+                <strong>Usman Raza</strong>
+                <span>Implant Patient</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testi-card">
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"My daughter was scared of dentists but Dr. Ayesha was so gentle and friendly. Now my kids actually look forward to their checkups!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar">FA</div>
+              <div>
+                <strong>Fatima Ali</strong>
+                <span>Pediatric Patient's Mother</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testi-card">
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"Got my braces from Dr. Imran. After 18 months my teeth are perfectly straight. The whole journey was smooth and affordable."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">HM</div>
+              <div>
+                <strong>Hassan Malik</strong>
+                <span>Braces Patient</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testi-card">
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"Best dental clinic in Shadbagh area. Modern equipment, fair prices, and the dentists really know their craft. A name of excellence indeed!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar">BK</div>
+              <div>
+                <strong>Bilal Khan</strong>
+                <span>Whitening Patient</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="testi-controls">
+          <button class="testi-btn" id="testiPrev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+          <div class="testi-dots" id="testiDots"></div>
+          <button class="testi-btn" id="testiNext" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Appointment ===== -->
+  <section class="section appointment" id="appointment">
+    <div class="container appointment-inner">
+      <div class="appointment-info reveal" data-reveal="left">
+        <span class="section-tag light">Book a Visit</span>
+        <h2 class="section-title light">Schedule Your Appointment Today</h2>
+        <p class="section-lead light">
+          Fill out the form and our front desk will confirm your slot via WhatsApp
+          within a few hours. Walk-ins are also welcome during clinic hours.
+        </p>
+
+        <ul class="appt-list">
+          <li>
+            <i class="fas fa-phone"></i>
+            <div><strong>Call Us</strong><span>0321 4422590</span></div>
+          </li>
+          <li>
+            <i class="fab fa-whatsapp"></i>
+            <div><strong>WhatsApp</strong><span>+92 321 4422590</span></div>
+          </li>
+          <li>
+            <i class="fas fa-clock"></i>
+            <div><strong>Clinic Hours</strong><span>Mon – Sat: 4:00 PM – 11:00 PM</span></div>
+          </li>
+          <li>
+            <i class="fas fa-location-dot"></i>
+            <div><strong>Visit Us</strong><span>Main Shadbagh Road, near Total Petrol Pump, Lahore</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <form class="appointment-form reveal" data-reveal="right" id="apptForm">
+        <h3>Request an Appointment</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Ali Raza" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="03xx-xxxxxxx" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option>Zirconia Crowns</option>
+              <option>Dental Implants</option>
+              <option>Braces &amp; Aligners</option>
+              <option>Teeth Whitening</option>
+              <option>Scaling &amp; Cleaning</option>
+              <option>Kids Dentistry</option>
+              <option>Root Canal</option>
+              <option>General Checkup</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message (optional)</label>
+          <textarea id="message" name="message" rows="3" placeholder="Tell us briefly about your dental concern..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          <i class="fab fa-whatsapp"></i> Send on WhatsApp
+        </button>
+        <p class="form-note">
+          <i class="fas fa-lock"></i> Your details are only used to confirm your appointment.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Contact / Map ===== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-head reveal" data-reveal="up">
+        <span class="section-tag">Visit Us</span>
+        <h2 class="section-title">Find Mian Dental Surgery in Lahore</h2>
+        <p class="section-lead">
+          We're located on Main Shadbagh Road, right next to the Total Petrol Pump.
+          Easy parking, easy access.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-cards reveal" data-reveal="left">
+          <div class="contact-card">
+            <div class="contact-ic"><i class="fas fa-location-dot"></i></div>
+            <div>
+              <h4>Address</h4>
+              <p>Main Shadbagh Road, near Total Petrol Pump, Lahore, Pakistan, 54000</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-ic"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:03214422590">0321 4422590</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-ic"><i class="fab fa-whatsapp"></i></div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p><a href="https://wa.me/923214422590" target="_blank" rel="noopener">+92 321 4422590</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-ic"><i class="fas fa-clock"></i></div>
+            <div>
+              <h4>Working Hours</h4>
+              <p>Monday – Saturday: 4:00 PM – 11:00 PM<br />Sunday: Closed</p>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://web.facebook.com/miandentalsurgery" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/923214422590" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-map reveal" data-reveal="right">
+          <iframe
+            src="https://www.google.com/maps?q=Shadbagh+Lahore&output=embed"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="Mian Dental Surgery Location"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-col footer-brand">
+        <a href="#home" class="brand">
+          <img src="images/logo.png" alt="Mian Dental Surgery Logo" class="brand-logo" />
+          <div class="brand-text">
+            <span class="brand-title">Mian Dental Surgery</span>
+            <span class="brand-sub">A Name of Excellence in Dentistry</span>
+          </div>
+        </a>
+        <p>We take care of your brighter future — one smile at a time. Trusted dental care in Lahore since 2010.</p>
+        <div class="footer-socials">
+          <a href="https://web.facebook.com/miandentalsurgery" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://wa.me/923214422590" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#doctors">Our Doctors</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#appointment">Book Appointment</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Zirconia Crowns</a></li>
+          <li><a href="#services">Dental Implants</a></li>
+          <li><a href="#services">Braces &amp; Aligners</a></li>
+          <li><a href="#services">Teeth Whitening</a></li>
+          <li><a href="#services">Scaling &amp; Cleaning</a></li>
+          <li><a href="#services">Kids Dentistry</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-contact">
+          <li><i class="fas fa-location-dot"></i> Main Shadbagh Road, near Total Petrol Pump, Lahore</li>
+          <li><i class="fas fa-phone"></i> <a href="tel:03214422590">0321 4422590</a></li>
+          <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/923214422590" target="_blank" rel="noopener">+92 321 4422590</a></li>
+          <li><i class="fas fa-clock"></i> Mon – Sat: 4 PM – 11 PM</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Mian Dental Surgery. All rights reserved.</p>
+        <p>Crafted with <i class="fas fa-heart"></i> for healthier smiles in Lahore.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Floating WhatsApp ===== -->
+  <a href="https://wa.me/923214422590" target="_blank" rel="noopener" class="floating-wa" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="floating-wa-tooltip">Chat with us!</span>
+  </a>
+
+  <!-- ===== Back to top ===== -->
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
